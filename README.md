@@ -38,4 +38,5 @@ A ng-directive which could build a catalog in the Web page.
 1.data（必须）
 data为一个由对象组成的数组，通过参数传入指令。其中每个对象的数据格式如下：
 * title
+
 2.click(非必须)
