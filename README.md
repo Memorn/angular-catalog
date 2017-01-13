@@ -9,8 +9,8 @@ A ng-directive which could build a catalog in the Web page.
 ####html 
 
      <div ng-app="catalogApp">
-      `<div ng-controller="catalogCtrl">`
-        `<catalog data="catalogDatas" click="clickFun()">``</catalog>`
-      `</div>`
-    `</div>`  
+       <div ng-controller="catalogCtrl">
+         <catalog data="catalogDatas" click="clickFun()"></catalog>
+       </div>
+     </div> 
 
