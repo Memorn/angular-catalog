@@ -17,7 +17,7 @@ A ng-directive which could build a catalog in the Web page.
     var catalogApp = angular.module('catalogApp',[]);
     
     catalogApp.controller('catalogCtrl',['$scope',function($scope){
-        $scope.catalogDatas = [
+        `$scope.catalogDatas = [
           {
              title:'Title1',
              href:'',
