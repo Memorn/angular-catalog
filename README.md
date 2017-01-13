@@ -19,7 +19,6 @@ A ng-directive which could build a catalog in the Web page.
     var catalogApp = angular.module('catalogApp',[]);
     
     catalogApp.controller('catalogCtrl',['$scope',function($scope){
-        //左边栏数据
         $scope.catalogDatas = [
           {
              title:'Title1',
@@ -34,7 +33,7 @@ A ng-directive which could build a catalog in the Web page.
         ];
         
        $scope.clickFun = function(){
-          //点击目录条目时的回调函数
+          ...
        } 
     }]);
 
