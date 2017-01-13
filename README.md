@@ -12,5 +12,9 @@ A ng-directive which could build a catalog in the Web page.
        <div ng-controller="catalogCtrl">
          <catalog data="catalogDatas" click="clickFun()"></catalog>
        </div>
-     </div> 
+     </div>    
+     
+####JS
+
+    var catalogApp = angular.module('catalogApp',[]);
 
