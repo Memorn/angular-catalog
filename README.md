@@ -1,5 +1,5 @@
 # angular-catalog
-A ng-directive which could build a catalog in the Web page.
+A ng-directive which could create a catalog in the Web page.
 ##依赖库
 * angular.js
 * jquery.js
