@@ -1,4 +1,4 @@
-# angular-catalog
+# angular-catalog/angular左边栏组件
 A ng-directive which could create a catalog in the Web page.
 ##依赖库
 * angular.js
