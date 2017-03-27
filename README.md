@@ -1,19 +1,19 @@
 # angular-catalog/angular左边栏组件
 A ng-directive which could create a catalog in the Web page.
-##依赖库
+## 依赖库
 * angular.js
 * jquery.js
 * bootstrap.js
 
-##使用方法
-####html 
+## 使用方法
+#### html 
      <div ng-app="catalogApp">
        <div ng-controller="catalogCtrl">
          <catalog data="catalogDatas" click="clickFun()"></catalog>
        </div>
      </div>    
      
-####JS
+#### JS
     var catalogApp = angular.module('catalogApp',[]);
     
     catalogApp.controller('catalogCtrl',['$scope',function($scope){
@@ -34,7 +34,7 @@ A ng-directive which could create a catalog in the Web page.
           ...
        } 
     }]);
-####Options
+#### Options
 1.data（必须）  
 data为一个由对象组成的数组，通过参数传入指令。其中每个对象的数据格式如下：
 * title:string类型，一级目录的名称，必要项；
